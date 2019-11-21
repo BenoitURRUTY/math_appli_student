@@ -1,0 +1,12 @@
+avec dz=1km
+Masse de la Terre en kg :    
+ 
+    5.972D+24  
+ 
+ Temps de trajet en minutes :    
+ 
+    10.129331  
+ 
+ Gravité g en m/s^2 :   
+ 
+    9.8144127  

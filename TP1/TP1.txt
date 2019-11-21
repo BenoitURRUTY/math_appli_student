@@ -1,0 +1,36 @@
+L3STE - modules maths - TP info
+
+TP1 - 18 oct 2017
+
+1. Intro
+1.1 admin : Objectifs des séances de TP + MCC
+_applications du cours (stats, geophys)
+_algo
+_maitriser un outil de calcul ou plusieurs
+_contenu : traitement de données, stats descriptives; algorithme; intégration numérique; traitement des données (interpolation; EOF, FFT, etc.)
+MCC : 2 contrôle continus
+
+1.2 Différents logiciels pour différentes utilisations : généralistes à tres spécialisées (par ex. traitement de la date + géolocalisation)
+
+4. Exercice 1 : mesures, stats descriptives (application directe du cours)
+set 1 : températures mensuelles à Genève-Cointrin
+ 4.1 mise en forme des données : valeurs manquantes, pas de temps regulier, visualiser les données
+ 4.2 calculer les moyennes climato mensuelles, std, min-max, faire un graphe avec ces valeurs pour les 12 mois
+ 4.3 histogramme des mois de juin; probabilité de T > juin 2003 (canicule)
+ 4.4 modéliser les données : régression linéaire (cf. cours), incertitudes sur paramètres et discussion du caractère significatif de la pente. Approche Monte Carlo : incertitude sur R.
+
+3. Les pièges de la lecture de données au format texte
+ 3.1 le séparateur décimal
+ 3.2 les meta-donnees : acceptees/lues ou pas
+ 3.3 le codage des sauts de ligne : CR vs. LF
+
+4a. Exo 1 (cf. année dernière) ?? : tuto d'un langage à suivre (qq commandes proposées pour se remettre dans le bain ou découvrir), avec qq exos d'algo à réaliser (somme entiers, factorielle, etc.)
+
+>> trouver set de mesures qui se prêtent bien à l'étude des incertitudes (de mesure) et de leur propagation ??
+
+5. Exo 2 : vitesse de vent, production electrique eolienne
+  Set de donnees volumineux, distrib pas gaussienne > description naturelle par quantiles. Diag a moustaches (boxplot). Distrib cumulee. Application: charge de prod entre Vmin et Vmax. 
+  Correlation entre vitesse et prod pas lineaire : coeff classique pas utile > correlation quantile-quantile.
+
+>> exo 1 et 2 stats descriptives mais pas d'algo/programmation : glisser des exos d'algo entre, ou avant ??
+=====
